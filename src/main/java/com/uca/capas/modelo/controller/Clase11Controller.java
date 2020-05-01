@@ -30,6 +30,7 @@ public class Clase11Controller {
 		return mav;
 	}
 	
+	
 	@RequestMapping("/procesar2")
 	public ModelAndView procesar2(@Valid @ModelAttribute Usuario user, BindingResult result) {
 		ModelAndView mav = new ModelAndView();
